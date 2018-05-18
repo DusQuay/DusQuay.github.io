@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "StiffStaff";
+    src:url("/Files/Stiff Staff.otf");
+}
 body {
     background-color: powderblue;
 	font-family: Verdana, Geneva, sans-serif;
