@@ -25,18 +25,22 @@ st3 {
 	font-size:12pt;
 }
 h1 {
-    color: #730000;
+    color: #ffea00;
 	font-family:StiffStaff;
 	font-size:30pt;
 }
 h2 {
+	color: #ffea00;
 	font-family:StiffStaff;
 	font-size:26pt;
+	text-shadow: 4px 4px;
 }
 p {
 	font-family: Verdana, Geneva, sans-serif;
 }
-
+a{
+	font-family: Verdana, Geneva, sans-serif;
+}
 ul {
     list-style-type: none;
     overflow: hidden;
