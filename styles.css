@@ -26,8 +26,12 @@ st3 {
 }
 h1 {
     color: #730000;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:StiffStaff;
 	font-size:30pt;
+}
+h2 {
+	font-family:StiffStaff;
+	font-size:26pt;
 }
 p {
 	font-family: Verdana, Geneva, sans-serif;
