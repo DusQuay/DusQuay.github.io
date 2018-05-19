@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "StiffStaff";
-    src:"/Files/Stiff Staff.otf";
+    src:url("/Files/Stiff Staff.otf");
 }
 body {
     background-color: powderblue;
@@ -29,6 +29,7 @@ h1 {
     color: #ffea00;
 	font-family:StiffStaff;
 	font-size:30pt;
+	text-shadow: 4px 4px black;
 }
 h2 {
 	color: #ffea00;
