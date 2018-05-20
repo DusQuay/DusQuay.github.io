@@ -43,6 +43,13 @@ ul {
 li {
 	float:left
 }
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
 li a {
     display: block;
     color: white;
