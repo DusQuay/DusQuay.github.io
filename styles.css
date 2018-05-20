@@ -62,4 +62,5 @@ li a:hover:not(.active) {
 	background: linear-gradient(red, yellow);
     background-color: #f44336;
     color: black;
+	text-shadow: 1px 1px white;
 }
