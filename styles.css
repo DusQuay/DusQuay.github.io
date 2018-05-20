@@ -6,13 +6,17 @@
 	font-family:"Kremlin";
 	src:url("./Files/Kremlin.ttf");
 }
+@font-face {
+	font-family:"Wipeout";
+	src:url("./Files/Wipeout HD.ttf");
+}
 body {
     background-color: #444444;
 	font-family: Verdana, Geneva, sans-serif;
 }
 h1 {
     color: #00DC57;
-	font-family:StiffStaff;
+	font-family:Kremlin;
 	font-size:36pt;
 	text-shadow: 4px 4px black;
 }
@@ -24,6 +28,7 @@ h2 {
 }
 p {
 	font-family: Verdana, Geneva, sans-serif;
+	
 }
 a{
 	font-family: Verdana, Geneva, sans-serif;
