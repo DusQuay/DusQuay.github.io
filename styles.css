@@ -11,9 +11,15 @@
 	src:url("./Files/Wipeout HD.ttf");
 }
 body {
-    background-color: #444444;
+    background-color: #00356a;
 	font-family: Verdana, Geneva, sans-serif;
 }
+#rcorners1 {
+    border-radius: 25px;
+    background: linear-gradient(rgb(0,94,184),white);
+    padding: 20px;    
+}
+
 h1 {
     color: #00DC57;
 	font-family:Kremlin;
