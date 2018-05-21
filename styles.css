@@ -40,7 +40,7 @@ p {
 a{
 	font-family: Verdana, Geneva, sans-serif;
 	color: #ffea00;
-	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px black;
 }
 ul {
     list-style-type: none;
@@ -76,5 +76,5 @@ li a:hover:not(.active) {
 	background: linear-gradient(red, yellow);
     background-color: #f44336;
     color: black;
-	text-shadow: 1px 1px white;
+	text-shadow: 2px 2px white;
 }
