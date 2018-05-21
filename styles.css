@@ -11,9 +11,16 @@
 	src:url("./Files/Wipeout HD.ttf");
 }
 body {
-    background-color: #444444;
+	color:#feffd5;
+    background-color: #00356a;
 	font-family: Verdana, Geneva, sans-serif;
 }
+#rcorners1 {
+    border-radius: 25px;
+    background: linear-gradient(rgb(0,94,184),#CCCCCC);
+    padding: 10px;    
+}
+
 h1 {
     color: #00DC57;
 	font-family:Kremlin;
@@ -28,12 +35,12 @@ h2 {
 }
 p {
 	font-family: Verdana, Geneva, sans-serif;
-	
+	color: #feffd5;
 }
 a{
 	font-family: Verdana, Geneva, sans-serif;
 	color: #ffea00;
-	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px black;
 }
 ul {
     list-style-type: none;
@@ -69,5 +76,5 @@ li a:hover:not(.active) {
 	background: linear-gradient(red, yellow);
     background-color: #f44336;
     color: black;
-	text-shadow: 1px 1px white;
+	text-shadow: 2px 2px white;
 }
