@@ -23,7 +23,7 @@ body {
 
 h1 {
     color: #00DC57;
-	font-family:Kremlin;
+	font-family:Tahoma;
 	font-size:36pt;
 	text-shadow: 4px 4px black;
 }
@@ -62,7 +62,7 @@ li a {
     color: white;
 	font-size:25px;
 	text-align: center;
-	font-family: StiffStaff;
+	font-family: Tahoma;
     text-align: center;
     padding: 15px 25px;/*first number is height*/
     text-decoration: none;
