@@ -74,7 +74,7 @@ li a {
     background: linear-gradient(black,rgb(0,213,106));
 }
 .bold{
-	font-weight: bold;	
+	font-weight: 550;	
 }
 li a:hover:not(.active) {
 	background: linear-gradient(red, yellow);
