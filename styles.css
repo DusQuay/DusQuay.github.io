@@ -41,7 +41,7 @@ a{
 	font-family: Verdana, Geneva, sans-serif;
 	color: #ffea00;
 	text-shadow: 2px 2px black;
-	font-weight: bold;
+	
 }
 ul {
     list-style-type: none;
@@ -72,6 +72,9 @@ li a {
 }
 .active{
     background: linear-gradient(black,rgb(0,213,106));
+}
+.bold{
+	font-weight: bold;	
 }
 li a:hover:not(.active) {
 	background: linear-gradient(red, yellow);
