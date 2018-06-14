@@ -82,3 +82,29 @@ li a:hover:not(.active) {
     color: black;
 	text-shadow: 2px 2px white;
 }
+.navbar {
+    overflow: hidden;
+	margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(#005eb8, white);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+	font-size:25px;
+	text-align: center;
+	font-family: Tahoma;
+    text-align: center;
+    padding: 15px 25px;/*first number is height*/
+    text-decoration: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navbuttons a:hover:not(.active) {
+	background: linear-gradient(red, yellow);
+    background-color: #f44336;
+    color: black;
+	text-shadow: 2px 2px white;
+}
