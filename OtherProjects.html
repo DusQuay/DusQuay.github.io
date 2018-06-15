@@ -6,6 +6,24 @@
   	</Files>
 	  <title>V59's Other Projects</title>
 	</head>
+	<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 <img id="rcorners1" src="/Files/DoseyProf8.png" height="75,width=75">
       <div class="navbar">
 	  <div class="navbuttons">
