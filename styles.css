@@ -32,7 +32,7 @@ body {
 }
 #rcorners2 {
     border-radius: 15px;
-    background: linear-gradient(#005eb8, white);
+    background: linear-gradient(#005eb8, #bfbfbf);
     padding: 10px;    
 	font-size:20px;
 	text-shadow:2px 2px black;
@@ -54,7 +54,7 @@ body {
 	border-radius:20px;
 	color:var(--Navbartextcolour);
 	text-align:center;
-    background: linear-gradient(#005eb8, white);    
+    background: linear-gradient(#005eb8, #bfbfbf);    
 	font-size:20px;
 	text-shadow:2px 2px black;
 	min-width:100%;
