@@ -141,12 +141,12 @@ li a:hover:not(.active) {
     text-decoration: none;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	/*text-shadow: 2px 2px var(--NavbartextShadowColour);*/
+	text-shadow: 2px 2px var(--NavbartextShadowColour);
 }
 .navbuttons a:hover:not(.active) {
     background: linear-gradient(#0077e6,#005eb8);
     color: var(--NavbartextShadowColour);
-    /*text-shadow: 2px 2px var(--Navbartextcolour);*/
+    text-shadow: 2px 2px var(--Navbartextcolour);
 }
 .dropbtn {
     background-color: #3498DB;
