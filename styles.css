@@ -99,13 +99,13 @@ li a {
     transition-duration: 0.4s;
 }
 .active{
-    background: linear-gradient(#0077e6,#005eb8);
+    background: linear-gradient(#a0a0a0,#006609);
 }
 .bold{
 	font-weight: 550;	
 }
 li a:hover:not(.active) {
-	background: linear-gradient(red, yellow);
+    background: linear-gradient(#0077e6,#005eb8);
     background-color: #f44336;
     color: black;
 	text-shadow: 2px 2px white;
@@ -114,7 +114,7 @@ li a:hover:not(.active) {
     overflow: hidden;
 	margin-top:10px;
     font-family: Arial, Helvetica, sans-serif;
-	background: linear-gradient(#005eb8, white);
+	background-color:#2a2a2a;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -134,7 +134,7 @@ li a:hover:not(.active) {
 	text-shadow: 2px 2px black;
 }
 .navbuttons a:hover:not(.active) {
-	background: linear-gradient(red, yellow);
+    background: linear-gradient(#0077e6,#005eb8);
     background-color: #f44336;
     color: black;
 	text-shadow: 2px 2px white;
@@ -142,7 +142,7 @@ li a:hover:not(.active) {
 .dropbtn {
     background-color: #3498DB;
     color: white;
-	background: linear-gradient(red, yellow);
+    background: linear-gradient(red, yellow);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -151,7 +151,7 @@ li a:hover:not(.active) {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-	background: linear-gradient(red, yellow);
+	background: linear-gradient(#0077e6,#005eb8);
 }
 
 .dropdown {
@@ -176,6 +176,6 @@ li a:hover:not(.active) {
     display: block;
 }
 
-.dropdown a:hover {background: linear-gradient(red,yellow);}
+.dropdown a:hover {background: linear-gradient(#0077e6,#005eb8);}
 
 .show {display: block;}
