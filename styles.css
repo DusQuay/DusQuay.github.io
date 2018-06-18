@@ -1,3 +1,8 @@
+:root{
+	--Navbartextcolour:white;
+	--NavbartextShadowColour:black;
+}
+
 @font-face {
     font-family: "StiffStaff";
     src:url("./Files/Stiff Staff.otf");
@@ -122,7 +127,7 @@ li a:hover:not(.active) {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: --Navbartextcolour;
 	font-size:25px;
 	text-align: center;
 	font-family: Tahoma;
@@ -131,7 +136,7 @@ li a:hover:not(.active) {
     text-decoration: none;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px --NavbartextShadowColour;
 }
 .navbuttons a:hover:not(.active) {
     background: linear-gradient(#0077e6,#005eb8);
