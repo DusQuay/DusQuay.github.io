@@ -137,7 +137,7 @@ li a:hover:not(.active) {
 	text-align: center;
 	font-family: Tahoma;
     text-align: center;
-    padding: 15px 20px;/*first number is height*/
+    padding: 15px 15px;/*first number is height*/
     text-decoration: none;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
