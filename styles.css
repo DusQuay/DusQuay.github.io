@@ -99,7 +99,7 @@ li a {
     transition-duration: 0.4s;
 }
 .active{
-    background: linear-gradient(#a0a0a0,#006609);
+    background: linear-gradient(#006609,#a0a0a0);
 }
 .bold{
 	font-weight: 550;	
