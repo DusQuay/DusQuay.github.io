@@ -122,7 +122,7 @@ li a {
 	font-weight: 550;	
 }
 li a:hover:not(.active) {
-    background: linear-gradient(#0077e6,#005eb8);
+    background: linear-gradient(var(--HoverColourA),var(--HoverColourB));
     background-color: #f44336;
     color: var(--Navbartextcolour);
 	text-shadow: 2px 2px var(--NavbartextShadowColour);
@@ -167,7 +167,7 @@ li a:hover:not(.active) {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-	background: linear-gradient(#0077e6,#005eb8);
+	background: linear-gradient(var(--HoverColourA),var(--HoverColourB));
 }
 
 .dropdown {
@@ -192,6 +192,6 @@ li a:hover:not(.active) {
     display: block;
 }
 
-.dropdown a:hover {background: linear-gradient(#0077e6,#005eb8);}
+.dropdown a:hover {background: linear-gradient(var(--HoverColourA),var(--HoverColourB));}
 
 .show {display: block;}
