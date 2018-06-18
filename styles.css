@@ -1,6 +1,7 @@
 :root{
 	--Navbartextcolour:white;
 	--NavbartextShadowColour:black;
+	--NavBarColour:#2a2a2a;
 }
 
 @font-face {
@@ -112,14 +113,14 @@ li a {
 li a:hover:not(.active) {
     background: linear-gradient(#0077e6,#005eb8);
     background-color: #f44336;
-    color: black;
-	text-shadow: 2px 2px white;
+    color: var(--Navbartextcolour);
+	text-shadow: 2px 2px var(--NavbartextShadowColour);
 }
 .navbar {
     overflow: hidden;
 	margin-top:10px;
     font-family: Arial, Helvetica, sans-serif;
-	background-color:#2a2a2a;
+	background-color:var(--NavbarColour);
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -127,7 +128,7 @@ li a:hover:not(.active) {
 .navbar a {
     float: left;
     display: block;
-    color: --Navbartextcolour;
+    color: var(--Navbartextcolour);
 	font-size:25px;
 	text-align: center;
 	font-family: Tahoma;
@@ -136,17 +137,17 @@ li a:hover:not(.active) {
     text-decoration: none;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	text-shadow: 2px 2px --NavbartextShadowColour;
+	text-shadow: 2px 2px var(--NavbartextShadowColour);
 }
 .navbuttons a:hover:not(.active) {
     background: linear-gradient(#0077e6,#005eb8);
     background-color: #f44336;
-    color: black;
-	text-shadow: 2px 2px white;
+    color: var(--NavbartextShadowColour);
+    text-shadow: 2px 2px var(--Navbartextcolour);
 }
 .dropbtn {
     background-color: #3498DB;
-    color: white;
+    color: var(--Navbartextcolour);
     background: linear-gradient(red, yellow);
     padding: 16px;
     font-size: 16px;
@@ -175,7 +176,7 @@ li a:hover:not(.active) {
 }
 
 .dropdown-content a {
-    color: white;
+    color: var(--Navbartextcolour);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
