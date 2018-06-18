@@ -4,8 +4,8 @@
 	--NavbarColour:#6d6d6d;
 	--ActivecolourA:#00d810;
 	--ActivecolourB:#019a0e;
-	--HoverColourA:red;
-	--HoverColourB:yellow;
+	--HoverColourA:#0077e6;
+	--HoverColourB:#005eb8;
 }
 
 @font-face {
@@ -49,6 +49,9 @@ body {
 	margin-top:20px;
 	min-width:110px;
 	text-align:center;
+}
+#rcorners3:hover{
+	background: linear-gradient(var(--HoverColourA),var(--HoverColourB));
 }
 #droppedcontent {
 	border-radius:20px;
