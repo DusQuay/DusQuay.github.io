@@ -143,7 +143,6 @@ li a:hover:not(.active) {
 }
 .navbuttons a:hover:not(.active) {
     background: linear-gradient(#0077e6,#005eb8);
-    background-color: #f44336;
     color: var(--NavbartextShadowColour);
     text-shadow: 2px 2px var(--Navbartextcolour);
 }
