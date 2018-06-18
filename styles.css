@@ -4,6 +4,8 @@
 	--NavbarColour:#03c791;
 	--ActivecolourA:#02c513;
 	--ActivecolourB:#292929;
+	--HoverColourA:red;
+	--HoverColourB:yellow;
 }
 
 @font-face {
@@ -50,7 +52,7 @@ body {
 }
 #droppedcontent {
 	border-radius:20px;
-	color:white;
+	color:var(--Navbartextcolour);
 	text-align:center;
     background: linear-gradient(#005eb8, white);    
 	font-size:20px;
@@ -96,7 +98,7 @@ li {
 }
 li a {
     display: block;
-    color: white;
+    color: var(--Navbartextcolour);
 	font-size:25px;
 	text-align: center;
 	font-family: Tahoma;
@@ -149,7 +151,7 @@ li a:hover:not(.active) {
 .dropbtn {
     background-color: #3498DB;
     color: var(--Navbartextcolour);
-    background: linear-gradient(red, yellow);
+    background: linear-gradient(var(--HoverColourA),var(--HoverColourB:));
     padding: 16px;
     font-size: 16px;
     border: none;
