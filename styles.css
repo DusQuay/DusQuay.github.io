@@ -37,6 +37,9 @@ body {
 	font-size:20px;
 	text-shadow:2px 2px black;
 }
+#rcorners2:hover{
+	background: linear-gradient(var(--HoverColourA),var(--HoverColourB));
+}
 #rcorners3 {
     border-radius: 15px;
 	color:white;
