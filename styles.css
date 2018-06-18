@@ -40,7 +40,7 @@ body {
 #rcorners3 {
     border-radius: 15px;
 	color:white;
-    background: linear-gradient(#005eb8, white);
+    background: linear-gradient(#005eb8, #bfbfbf);
     padding: 10px;    
 	font-size:20px;
 	text-decoration:none;
