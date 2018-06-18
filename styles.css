@@ -176,6 +176,6 @@ li a:hover:not(.active) {
     display: block;
 }
 
-.dropdown a:hover {background: linear-gradient(red, yellow);}
+.dropdown a:hover {background: linear-gradient(#0077e6,#005eb8);;}
 
 .show {display: block;}
