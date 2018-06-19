@@ -69,7 +69,7 @@ body {
 
 h1 {
     color: #ffea00;
-	font-family:Tahoma;
+	font-family:Tahoma, Myriad;
 	font-size:36pt;
 	text-shadow: 4px 4px black;
 }
@@ -108,7 +108,7 @@ li a {
     color: var(--Navbartextcolour);
 	font-size:25px;
 	text-align: center;
-	font-family: Tahoma;
+	font-family: Tahoma, Myriad;
     text-align: center;
     padding: 15px 25px;/*first number is height*/
     text-decoration: none;
@@ -130,7 +130,7 @@ li a:hover:not(.active) {
 .navbar {
     overflow: hidden;
 	margin-top:10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Myriad;
 	background-color:var(--NavbarColour);
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -142,7 +142,7 @@ li a:hover:not(.active) {
     color: var(--Navbartextcolour);
 	font-size:25px;
 	text-align: center;
-	font-family: Tahoma;
+	font-family: Tahoma, Myriad;
     text-align: center;
     padding: 15px 15px;/*first number is height*/
     text-decoration: none;
