@@ -40,7 +40,7 @@ body {
 #rcorners2:hover{
 	background: linear-gradient(var(--HoverColourA),var(--HoverColourB));
 }
-#rcorners3 {
+.rcorners3 {
     border-radius: 15px;
 	color:var(--Navbartextcolour);
     background: linear-gradient(#005eb8, #bfbfbf);
